@@ -1,3 +1,4 @@
+import "server-only";
 import { bigint, index } from "drizzle-orm/singlestore-core";
 import {
   int,
