@@ -30,7 +30,7 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 ## TODO
 
-- [ ] Set up datatbase and data model
+- [x] Set up datatbase and data model
 - [ ] Move folder open state to URL
 - [ ] Add auth
 - [ ] Add file uploading

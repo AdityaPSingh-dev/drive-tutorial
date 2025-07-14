@@ -4,8 +4,6 @@ import {
   folders as folderSchema,
 } from "~/server/db/schema";
 import DriveContents from "./drive-content";
-export default async function GoogleDriveClone() {
-  const files = await db.select().from(fileSchema);
-  const fodlers = await db.select().from(folderSchema);
-  return <DriveContents files={files} folders={fodlers} />;
+export default function HomePage() {
+  return <div>{"Need Redesigning here "}</div>;
 }
